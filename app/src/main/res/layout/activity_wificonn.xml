@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left|top"
+
+        android:text="ip地址： "
+        app:layout_heightPercent="20%"
+        android:gravity="center"
+        app:layout_widthPercent="25%"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left|top"
+        android:gravity="left"
+
+        android:text= "172.21.30.12"
+        app:layout_heightPercent="20%"
+        app:layout_marginLeftPercent = "30%"
+        app:layout_widthPercent="70%"
+        android:id="@+id/ipaddr"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left|top"
+        android:text="端口号： "
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent = "20%"
+        android:gravity="center"
+        app:layout_widthPercent="25%"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left|top"
+        android:gravity="left"
+        android:inputType="number"
+        android:text= "30000"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent = "20%"
+        app:layout_marginLeftPercent = "30%"
+        app:layout_widthPercent="70%"
+        android:id="@+id/post"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="确认"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent = "40%"
+        app:layout_widthPercent="50%"
+        android:id="@+id/btnConnect"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="取消"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent = "40%"
+        app:layout_widthPercent="50%"
+        android:id="@+id/btnCancel"/>
+
+
+
+</android.support.percent.PercentFrameLayout>

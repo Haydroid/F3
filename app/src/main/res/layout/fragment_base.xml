@@ -1,0 +1,127 @@
+<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+             <!--xmlns:tools="http://schemas.android.com/tools"-->
+             <!--android:orientation="vertical"-->
+             <!--android:layout_width="match_parent"-->
+             <!--android:layout_height="match_parent"-->
+             <!--tools:context="com.act.f6test.BaseFragment">-->
+
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="top"
+            app:layout_heightPercent="12%"
+            app:layout_widthPercent="50%"
+            android:popupBackground="@android:color/holo_blue_light"
+            android:id="@+id/RestType"/>
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="复位"
+            android:id="@+id/btnResetEject"
+            android:layout_gravity="top|right"
+            app:layout_heightPercent="12%"
+            app:layout_widthPercent="50%"/>
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/card_pos"
+            android:id="@+id/btnCardPos"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="11%"
+            app:layout_widthPercent="50%"/>
+
+        <Button
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/permit_insertion"
+            android:id="@+id/btnPermitIns"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="11%"
+            android:layout_gravity="top|right"
+            app:layout_widthPercent="50%"/>
+
+
+        <Button
+            android:textColor="@android:color/holo_red_light"
+            android:layout_gravity="top|right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/denie_insertion"
+            android:id="@+id/btnDenieIns"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="22%"
+            app:layout_widthPercent="50%"
+            />
+
+
+        <Button
+            android:layout_gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="从前端弹卡"
+            android:id="@+id/btnCardOut"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="22%"
+            app:layout_widthPercent="50%"/>
+
+        <Button
+            android:layout_gravity="top|right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="移动卡到前端持卡位"
+            android:id="@+id/btnMoveToFront"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="33%"
+            app:layout_widthPercent="50%"
+            />
+
+        <Button
+            android:layout_gravity="top|right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="移动卡到IC触点位"
+            android:id="@+id/btnMoveToIC"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="33%"
+            app:layout_widthPercent="50%"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="移动到射频位"
+            android:id="@+id/btnMoveToReadPos"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="33%"
+            app:layout_widthPercent="50%"/>
+
+
+        <Button
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/permit_insertionmag"
+            android:id="@+id/btnpermitin"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="44%"
+            app:layout_widthPercent="50%"/>
+
+</android.support.percent.PercentFrameLayout>
+
+<!--</TableLayout>-->
